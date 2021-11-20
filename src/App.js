@@ -1,16 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Card from "./Components/Card/Card";
+import CardTamal from "./Components/Cards/CardTamal/CardTamal";
+import CardAtole from "./Components/Cards/CardAtole/CardAtole";
+
+
 
 function App() {
   return (
     <div className="App">
       <h1>La mejor app de Tamales</h1>
       <div>
-        <button type="button" class="btn btn-primary">
-          Ahuevo
-        </button>
-        <Card />
+        <CardTamal />
+        <CardAtole />
       </div>
     </div>
   );
