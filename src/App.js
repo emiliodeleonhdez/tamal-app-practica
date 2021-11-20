@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Card from "./Components/Card/Card";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <button type="button" class="btn btn-primary">
           Ahuevo
         </button>
+        <Card />
       </div>
     </div>
   );
