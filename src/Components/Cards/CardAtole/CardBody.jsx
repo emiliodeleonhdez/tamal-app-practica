@@ -9,20 +9,16 @@ const CardBody = ({
   cardTextContent,
   type,
   buttonText,
-  tipoDeAtole1,
-  tipoDeAtole2,
-  tipoDeAtole3,
-  tipoDeAtole4,
+  tamanoDeAtole1,
+  tamanoDeAtole2,
 }) => {
   return (
     <div className="card-body">
       <CardTitle cardTitleText={cardTitleText} />
       <CardText cardTextContent={cardTextContent} />
       <TipoDeAtole
-        tipoDeAtole1={tipoDeAtole1}
-        tipoDeAtole2={tipoDeAtole2}
-        tipoDeAtole3={tipoDeAtole3}
-        tipoDeAtole4={tipoDeAtole4}
+        tamanoDeAtole1={tamanoDeAtole1}
+        tamanoDeAtole2={tamanoDeAtole2}
       />
       <PrimaryButton type={type} buttonText={buttonText} />
     </div>

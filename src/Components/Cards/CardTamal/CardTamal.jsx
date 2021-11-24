@@ -10,6 +10,7 @@ const CardTamal = ({
   imgUrl = "https://dam.cocinafacil.com.mx/wp-content/uploads/2021/07/tamales.jpg",
   tipoDeHoja1 = "Hoja de Maíz",
   tipoDeHoja2 = "Hoja de Plátano",
+
 }) => {
   return (
     <div className="d-flex justify-content-center mt-5">
